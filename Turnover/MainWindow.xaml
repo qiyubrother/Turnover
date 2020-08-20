@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Turnover"
         mc:Ignorable="d"
-        Title="两市成交额" Height="120" Width="566" WindowStartupLocation="CenterScreen">
+        Title="两市成交额" Height="120" Width="500" WindowStartupLocation="CenterScreen">
     <Grid>
         <Label Content="上证：" HorizontalAlignment="Left" Margin="25,24,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <Label Content="" HorizontalAlignment="Left" Margin="75,24,0,0" VerticalAlignment="Top" Width="141" FontSize="18" Name="sz"/>
-        <Label Content="深证：" HorizontalAlignment="Left" Margin="207,24,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <Label Content="" HorizontalAlignment="Left" Margin="257,24,0,0" VerticalAlignment="Top" Width="141" FontSize="18" Name="sc"/>
-        <Label Content="总额：" HorizontalAlignment="Left" Margin="409,24,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <Label Content="" HorizontalAlignment="Left" Margin="459,24,0,0" VerticalAlignment="Top" Width="89" FontSize="18" Name="ze" Foreground="Red"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="94,24,0,0" VerticalAlignment="Top" Width="64" FontSize="18" Name="sz"/>
+        <Label Content="深证：" HorizontalAlignment="Left" Margin="173,24,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="237,24,0,0" VerticalAlignment="Top" Width="64" FontSize="18" Name="sc"/>
+        <Label Content="总额：" HorizontalAlignment="Left" Margin="338,24,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="401,24,0,0" VerticalAlignment="Top" Width="64" FontSize="18" Name="ze" Foreground="Red"/>
         <WebBrowser HorizontalAlignment="Left" Height="100" Margin="233,9,0,0" VerticalAlignment="Top" Width="100" Name="web" Visibility="Hidden"/>
 
     </Grid>
